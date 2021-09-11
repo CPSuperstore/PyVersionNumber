@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setuptools.setup(
     name='PyVersionNumber',
     packages=['PyVersionNumber'],
-    version='1.0.1',
+    version='1.1.0',
     license='MIT',
     description='A small library for handling and comparing Semantic Version Numbers',
     long_description=long_description,
