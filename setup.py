@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setuptools.setup(
     name='PyVersionNumber',
     packages=['PyVersionNumber'],
-    version='1.1.0',
+    version='1.1.1',
     license='MIT',
     description='A small library for handling and comparing Semantic Version Numbers',
     long_description=long_description,
@@ -17,7 +17,7 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": "https://github.com/CPSuperstore/PyVersionNumber/issues",
     },
-    download_url='https://github.com/CPSuperstore/PyVersionNumber/archive/refs/tags/v1.0.1.tar.gz',
+    download_url='https://github.com/CPSuperstore/PyVersionNumber/archive/refs/tags/v1.1.1.tar.gz',
     keywords=['SEMANTIC', 'VERSION', 'NUMBER', 'VERSIONING', 'MAJOR', 'MINOR', 'PATCH'],
     install_requires=[],
     classifiers=[
