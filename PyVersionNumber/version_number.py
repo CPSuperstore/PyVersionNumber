@@ -77,12 +77,18 @@ class VersionNumber:
         if isinstance(other, VersionNumber):
             if self.major < other.major:
                 return True
+            elif self.major > other.major:
+                return False
 
             if self.minor < other.minor:
                 return True
+            elif self.minor > other.minor:
+                return False
 
             if self.patch < other.patch:
                 return True
+            elif self.patch > other.patch:
+                return False
 
             return False
 
@@ -92,12 +98,18 @@ class VersionNumber:
         if isinstance(other, VersionNumber):
             if self.major > other.major:
                 return True
+            elif self.major < other.major:
+                return False
 
             if self.minor > other.minor:
                 return True
+            elif self.minor < other.minor:
+                return False
 
             if self.patch > other.patch:
                 return True
+            elif self.patch < other.patch:
+                return False
 
             return False
 
