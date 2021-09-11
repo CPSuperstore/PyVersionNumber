@@ -8,7 +8,7 @@ setup(
     author='CPSuperstore',
     author_email='cpsuperstoreinc@gmail.com',
     url='https://github.com/CPSuperstore/PyVersionNumber',
-    download_url='https://github.com/CPSuperstore/PyVersionNumber/archive/v_01.tar.gz',
+    download_url='https://github.com/CPSuperstore/PyVersionNumber/archive/refs/tags/v1.0.0.tar.gz',
     keywords=['SEMANTIC', 'VERSION', 'NUMBER', 'VERSIONING', 'MAJOR', 'MINOR', 'PATCH'],
     install_requires=[],
     classifiers=[
