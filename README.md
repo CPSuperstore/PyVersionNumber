@@ -1,6 +1,11 @@
 # PyVersionNumber
 A small library for handling Semantic Version Numbers
 
+## Installation
+```shell
+pip install PyVersionNumber
+```
+
 ## Usage
 The following code sample shows the two ways to instantiate the `VersionNumber` class:
 ```python
@@ -23,3 +28,6 @@ or see if the version number indicates the product is in development
 according to Semantic Versioning Standards (the Major number = 0)
 
 It is a very small and simple library which has many uses. Enjoy!
+
+## Contributing
+If you wish to contribute, submit a PR and I would be happy to review it!
